@@ -3,5 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hi there!!!")
+
+	cards := qwerty()
+	fmt.Println(cards)
 }
+
+func qwerty() string{
+	return "Ace of Spades"
+}
+
