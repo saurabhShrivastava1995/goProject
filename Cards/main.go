@@ -1,14 +1,10 @@
 package main 
 
-import "fmt"
+
 
 func main() {
 
-	cards := qwerty()
-	fmt.Println(cards)
-}
+	cards := createDeck()
+	cards.print()
 
-func qwerty() string{
-	return "Ace of Spades"
 }
-
